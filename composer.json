@@ -1,18 +1,20 @@
 {
-    "name": "https://github.com/OleVik/grav-plugin-imgcaptions",
-    "description": "Grav ImgCaptions Plugin",
+    "name": "https://github.com/OleVik/grav-plugin-transliterate-cyrillic",
+    "description": "Grav Transliterate Cyrillic Plugin",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Ole Vik",
-            "email": "git@olevik.net"
-        }
-    ],
+    "authors": [{
+        "name": "Ole Vik",
+        "email": "git@olevik.net"
+    }],
     "require-dev": {
-        "codeception/codeception": "^2.3",
-        "erusev/parsedown": "^1.6"
+        "phpbench/phpbench": "^1.0@dev"
     },
     "scripts": {
-        "test": "php vendor/Codeception/Codeception/codecept run unit"
+        "test": "php vendor/phpbench/phpbench/bin/phpbench.php run benchmarks/TransliterateCyrillicTestBench.php --report=default"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "lib"
+        }
     }
 }
