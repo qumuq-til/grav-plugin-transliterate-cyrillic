@@ -29,6 +29,6 @@ A Twig-function, `transliterate_cyrillic()`, can be used to apply the functional
 
 Run `composer update` to install the testing dependencies. Then run `composer test` in the root folder. Finally, run `composer update --no-dev` to uninstall the testing dependencies.
 
-A :christmas_tree: Christmas project responding to a request from marziyeh, using [his script](https://raw.githubusercontent.com/qumuq-til/cyrillic-to-latin/master/transliteration.php) largely untouched (in `[transliterate-cyrillic-method.php](transliterate-cyrillic-method.php)`). Written as a gentle introduction to plugins in Grav and OOP in PHP by :santa: [OleVik](https://github.com/OleVik).
+A :christmas_tree: Christmas project responding to a request from marziyeh, using [his script](https://raw.githubusercontent.com/qumuq-til/cyrillic-to-latin/master/transliteration.php) largely untouched (in [transliterate-cyrillic-method.php](transliterate-cyrillic-method.php)). Written as a gentle introduction to plugins in Grav and OOP in PHP by :santa: [OleVik](https://github.com/OleVik).
 
 MIT License 2018 by [Ole Vik](http://github.com/olevik).
