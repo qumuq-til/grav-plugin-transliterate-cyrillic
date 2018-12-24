@@ -1,0 +1,10 @@
+en:
+  PLUGIN_TRANSLITERATE_CYRILLIC:
+    ADMIN:
+      MODE:
+        LABEL: Mode
+        DESCRIPTION: Target raw or processed content. Default event for Markdown is onPageContentRaw, for HTML onPageContentProcessed.
+      EVENT:
+        LABEL: Event
+        DESCRIPTION: Override the default event.
+        PLACEHOLDER: Event Hook

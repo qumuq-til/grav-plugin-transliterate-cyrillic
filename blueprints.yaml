@@ -1,0 +1,40 @@
+name: Transliterate Cyrillic
+version: 1.0.0
+description: "Transliterates Cyrillic text to Latin."
+icon: file-text
+author:
+  name: Ole Vik
+  email: git@olevik.me
+  url: http://olevik.me
+homepage: https://github.com/olevik/grav-plugin-transliterate-cyrillic
+keywords: caption, captions, figure, figcaption, image, images, image caption
+bugs: https://github.com/olevik/grav-plugin-transliterate-cyrillic/issues
+license: MIT
+dependencies:
+  - { name: grav, version: '>=1.6' }
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: Status
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    mode:
+      type: select
+      label: PLUGIN_TRANSLITERATE_CYRILLIC.ADMIN.MODE.LABEL
+      default: markdown
+      description: PLUGIN_TRANSLITERATE_CYRILLIC.ADMIN.MODE.DESCRIPTION
+      options:
+        markdown: Markdown
+        html: HTML
+    event:
+      type: text
+      label: PLUGIN_TRANSLITERATE_CYRILLIC.ADMIN.EVENT.LABEL
+      placeholder: PLUGIN_TRANSLITERATE_CYRILLIC.ADMIN.EVENT.PLACEHOLDER
+      description: PLUGIN_TRANSLITERATE_CYRILLIC.ADMIN.EVENT.DESCRIPTION
