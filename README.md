@@ -1,12 +1,12 @@
 # [Grav](http://getgrav.org/) Transliterate Cyrillic Plugin
 
-Transliterates cyrillic text into latin. From this Markdown content:
+Transliterates cyrillic text for Kumyk (Qumuq) language into latin. From this Markdown content:
 
-		Лорем ипсум долор сит амет, еи импедит принципес яуи, нец цопиосае инвенире ут. Яуи оптион аудире ех, ад оптион воцибус дигниссим ест. Нам новум убияуе мелиоре ид. Меа цу ностер аудиам нусяуам, еа нам партем продессет. Ат мунере албуциус меа, дицам сцрипсерит сед ех, яуот омнесяуе вих ат. Сеа яуод нонумы еа, ан алияуам аппетере атоморум хас. Яуот велит цлита меа еа, ет мел ассум фиерент. Те хис меис детрацто ехплицари. Вертерем волуптатибус меи еа. Вим новум репудиаре еу. Дицит аперири цонсецтетуер ест еа. Унум ребум нец ех. Но фалли игнота меи. Албуциус молестиае хендрерит ат хис. Либрис перфецто еффициенди.
+		Кёп арив, ону Абдулкеримге айтыгъыз, барып гёрсюн, ол мени булан турмажакъ, Абдулкерим булан оьмюрюн йибережек. Оьзюню оьмюрлюк ёлдашы болажакъ гишини гьалын-къылыгъын билмей алгъасап этме яхшы тюгюл, – деп жавап берди.
 
 Into this transliteration:
 
-		Lorem ipsum dolor sit amet, yei impedit prinsipes yaui, nes sopiosaye inwenire ut. Yaui option audire yex, ad option wosibus dignissim yest. Nam nowum ubyauye meliore id. Mea su noster audiam nusäuam, yea nam partem prodesset. At munere albusius mea, disam ssripserit sed yex, yauot omnesäuye wix at. Sea yauod nonumı yea, an alyauam appetere atomorum xas. Yauot welit slita mea yea, yet mel assum fiyerent. Te xis meis detrasto yexplisari. Werterem woluptatibus mei yea. Wim nowum repudiare yeu. Disit aperiri sonsestetuyer yest yea. Unum rebum nes yex. No falli ignota mei. Albusius molestiaye xendrerit at xis. Libris perfesto yeffisiyendi.
+		Köp ariw, onu Abdulkerimge aytığız, barıp görsün, ol meni bulan turmajaq, Abdulkerim bulan ömürün yiberejek. Özünü ömürlük yoldaşı bolajaq gişini halın-qılığın bilmey alğasap etme yaxşı tügül, – dep cawap berdi.	
 
 # Installation and Configuration
 
